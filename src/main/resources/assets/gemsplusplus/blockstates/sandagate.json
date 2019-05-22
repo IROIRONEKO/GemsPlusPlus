@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"normal": [
+			{"model": "gemsplusplus:sandAgate" },
+			{"model": "gemsplusplus:sandAgate", "y": 90 },
+			{"model": "gemsplusplus:sandAgate", "y": 180 },
+			{"model": "gemsplusplus:sandAgate", "y": 270 }
+		]
+	}
+}

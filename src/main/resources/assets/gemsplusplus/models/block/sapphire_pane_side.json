@@ -1,0 +1,7 @@
+{
+    "parent": "block/pane_side",
+    "textures": {
+        "edge": "gemsplusplus:blocks/sapphire_pane_top",
+        "pane": "gemsplusplus:blocks/glasssapphire"
+    }
+}

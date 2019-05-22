@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"normal": [
+			{"model": "gemsplusplus:sandOnyx" },
+			{"model": "gemsplusplus:sandOnyx", "y": 90 },
+			{"model": "gemsplusplus:sandOnyx", "y": 180 },
+			{"model": "gemsplusplus:sandOnyx", "y": 270 }
+		]
+	}
+}

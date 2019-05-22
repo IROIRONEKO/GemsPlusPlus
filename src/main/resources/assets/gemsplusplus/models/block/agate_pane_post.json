@@ -1,0 +1,7 @@
+{
+    "parent": "block/pane_post",
+    "textures": {
+        "edge": "gemsplusplus:blocks/agate_pane_top",
+        "pane": "gemsplusplus:blocks/glassagate"
+    }
+}
