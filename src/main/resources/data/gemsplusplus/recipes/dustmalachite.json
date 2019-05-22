@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+"group": "gemdust",
+  "ingredients": [
+    {
+      "item": "gemsplusplus:malachite"
+    }
+  ],
+  "result": {
+    "item": "gemsplusplus:dustmalachite",
+    "count": 4
+  }
+}

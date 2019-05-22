@@ -1,0 +1,9 @@
+{
+	"type": "smelting",
+	"ingredient": {
+		"item": "gemsplusplus:sandchrysocolla"
+	},
+	"result": "gemsplusplus:glasschrysocolla",
+	"experience": 0.1,
+	"cookingtime": 200
+}

@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"": [
+			{"model": "gemsplusplus:block/sandspinel" },
+			{"model": "gemsplusplus:block/sandspinel", "y": 90 },
+			{"model": "gemsplusplus:block/sandspinel", "y": 180 },
+			{"model": "gemsplusplus:block/sandspinel", "y": 270 }
+		]
+	}
+}

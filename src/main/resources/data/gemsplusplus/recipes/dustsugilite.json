@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+"group": "gemdust",
+  "ingredients": [
+    {
+      "item": "gemsplusplus:sugilite"
+    }
+  ],
+  "result": {
+    "item": "gemsplusplus:dustsugilite",
+    "count": 4
+  }
+}

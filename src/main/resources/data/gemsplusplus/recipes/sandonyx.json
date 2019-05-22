@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shapeless",
+"group": "gemdust",
+  "ingredients": [
+    {
+      "item": "gemsplusplus:dustonyx"
+    },
+{
+      "item": "minecraft:sand"
+    },
+	  {
+      "item": "minecraft:sand"
+    }
+  ],
+  "result": {
+    "item": "gemsplusplus:sandonyx",
+    "count": 4
+  }
+}

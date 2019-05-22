@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "group": "gemdust",
+  "ingredients": [
+    {
+      "item": "gemsplusplus:chrysocolla"
+    }
+  ],
+  "result": {
+    "item": "gemsplusplus:dustchrysocolla",
+    "count": 4
+  }
+}

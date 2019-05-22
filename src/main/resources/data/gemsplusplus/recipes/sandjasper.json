@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shapeless",
+"group": "gemdust",
+  "ingredients": [
+    {
+      "item": "gemsplusplus:dustjasper"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+	  {
+      "item": "minecraft:sand"
+    }
+  ],
+  "result": {
+    "item": "gemsplusplus:sandjasper",
+    "count": 4
+  }
+}

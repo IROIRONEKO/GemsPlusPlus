@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+"group": "gemdust",
+  "ingredients": [
+    {
+      "item": "gemsplusplus:agate"
+    }
+  ],
+  "result": {
+    "item": "gemsplusplus:dustagate",
+    "count": 4
+  }
+}
