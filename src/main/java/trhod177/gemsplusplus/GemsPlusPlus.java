@@ -7,6 +7,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockSand;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemGroup;
@@ -26,6 +27,7 @@ import trhod177.gemsplusplus.blocks.GPPGlass;
 import trhod177.gemsplusplus.blocks.GPPGlassPane;
 import trhod177.gemsplusplus.blocks.GPPOre;
 import trhod177.gemsplusplus.blocks.GPPOrePhoenixite;
+import trhod177.gemsplusplus.items.GPPArmor;
 import trhod177.gemsplusplus.items.GPPPhoenixiteAxe;
 import trhod177.gemsplusplus.items.GPPPhoenixiteHoe;
 import trhod177.gemsplusplus.items.GPPPhoenixitePickaxe;
@@ -33,6 +35,7 @@ import trhod177.gemsplusplus.items.GPPPhoenixiteShovel;
 import trhod177.gemsplusplus.items.GPPPhoenixiteSword;
 import trhod177.gemsplusplus.items.ItemCustomAxe;
 import trhod177.gemsplusplus.items.ItemCustomPickAxe;
+import trhod177.gemsplusplus.lists.ArmorMaterialList;
 import trhod177.gemsplusplus.lists.BlockList;
 import trhod177.gemsplusplus.lists.ItemList;
 import trhod177.gemsplusplus.lists.ToolMaterialList;
@@ -295,8 +298,27 @@ public class GemsPlusPlus {
 		ItemList.spinelglasspane = new ItemBlock(BlockList.spinelglasspane, new Item.Properties().group(gemsplusplusblock)).setRegistryName(BlockList.spinelglasspane.getRegistryName()),
 		ItemList.sugiliteglasspane = new ItemBlock(BlockList.sugiliteglasspane, new Item.Properties().group(gemsplusplusblock)).setRegistryName(BlockList.sugiliteglasspane.getRegistryName()),
 		ItemList.topazglasspane = new ItemBlock(BlockList.topazglasspane, new Item.Properties().group(gemsplusplusblock)).setRegistryName(BlockList.topazglasspane.getRegistryName()),
-		ItemList.tourmalineglasspane = new ItemBlock(BlockList.tourmalineglasspane, new Item.Properties().group(gemsplusplusblock)).setRegistryName(BlockList.tourmalineglasspane.getRegistryName())
+		ItemList.tourmalineglasspane = new ItemBlock(BlockList.tourmalineglasspane, new Item.Properties().group(gemsplusplusblock)).setRegistryName(BlockList.tourmalineglasspane.getRegistryName()),
 		
+		ItemList.helmetagate = new GPPArmor(ArmorMaterialList.AGATE, EntityEquipmentSlot.HEAD, new Item.Properties().group(gemsplusplusitem)).setRegistryName(location("helmetagate")),
+		ItemList.helmetamethyst = new GPPArmor(ArmorMaterialList.AMETHYST, EntityEquipmentSlot.HEAD,new Item.Properties().group(gemsplusplusitem)).setRegistryName(location("helmetamethyst")),
+		ItemList.helmetcitrine = new GPPArmor(ArmorMaterialList.CITRINE, EntityEquipmentSlot.HEAD,new Item.Properties().group(gemsplusplusitem)).setRegistryName(location("helmetcitrine")),
+		ItemList.helmetchrysocolla = new GPPArmor(ArmorMaterialList.CHRYSOCOLLA, EntityEquipmentSlot.HEAD,new Item.Properties().group(gemsplusplusitem)).setRegistryName(location("helmetchrysocolla")),
+		ItemList.helmetgarnet = new GPPArmor(ArmorMaterialList.GARNET, EntityEquipmentSlot.HEAD,new Item.Properties().group(gemsplusplusitem)).setRegistryName(location("helmetgarnet")),
+		ItemList.helmetjade = new GPPArmor(ArmorMaterialList.JADE, EntityEquipmentSlot.HEAD,new Item.Properties().group(gemsplusplusitem)).setRegistryName(location("helmetjade")),
+		ItemList.helmetjasper = new GPPArmor(ArmorMaterialList.JASPER, EntityEquipmentSlot.HEAD,new Item.Properties().group(gemsplusplusitem)).setRegistryName(location("helmetjasper")),
+		ItemList.helmetmalachite = new GPPArmor(ArmorMaterialList.MALACHITE, EntityEquipmentSlot.HEAD,new Item.Properties().group(gemsplusplusitem)).setRegistryName(location("helmetmalachite")),
+		ItemList.helmetonyx = new GPPArmor(ArmorMaterialList.ONYX, EntityEquipmentSlot.HEAD,new Item.Properties().group(gemsplusplusitem)).setRegistryName(location("helmetonyx")),
+		ItemList.helmetphoenixite = new GPPArmor(ArmorMaterialList.PHOENIXITE, EntityEquipmentSlot.HEAD,new Item.Properties().group(gemsplusplusitem)).setRegistryName(location("helmetphoenixite")),
+		ItemList.helmetruby = new GPPArmor(ArmorMaterialList.RUBY, EntityEquipmentSlot.HEAD,new Item.Properties().group(gemsplusplusitem)).setRegistryName(location("helmetruby")),
+		ItemList.helmetsapphire = new GPPArmor(ArmorMaterialList.SAPPHIRE, EntityEquipmentSlot.HEAD,new Item.Properties().group(gemsplusplusitem)).setRegistryName(location("helmetsapphire")),
+		ItemList.helmetspinel = new GPPArmor(ArmorMaterialList.SPINEL, EntityEquipmentSlot.HEAD,new Item.Properties().group(gemsplusplusitem)).setRegistryName(location("helmetspinel")),
+		ItemList.helmetsugilite = new GPPArmor(ArmorMaterialList.SUGILITE, EntityEquipmentSlot.HEAD,new Item.Properties().group(gemsplusplusitem)).setRegistryName(location("helmetsugilite")),
+		ItemList.helmettopaz = new GPPArmor(ArmorMaterialList.TOPAZ, EntityEquipmentSlot.HEAD,new Item.Properties().group(gemsplusplusitem)).setRegistryName(location("helmettopaz")),
+		ItemList.helmettourmaline = new GPPArmor(ArmorMaterialList.TOURMALINE, EntityEquipmentSlot.HEAD,new Item.Properties().group(gemsplusplusitem)).setRegistryName(location("helmettourmaline")),
+		ItemList.bootsphoenixite = new GPPArmor(ArmorMaterialList.PHOENIXITE, EntityEquipmentSlot.FEET,new Item.Properties().group(gemsplusplusitem)).setRegistryName(location("bootsphoenixite")),
+		ItemList.leggingsphoenixite = new GPPArmor(ArmorMaterialList.PHOENIXITE, EntityEquipmentSlot.LEGS,new Item.Properties().group(gemsplusplusitem)).setRegistryName(location("leggingsphoenixite")),
+		ItemList.chestplatephoenixite = new GPPArmor(ArmorMaterialList.PHOENIXITE, EntityEquipmentSlot.CHEST,new Item.Properties().group(gemsplusplusitem)).setRegistryName(location("chestplatephoenixite"))
 		
 		);
 		logger.info("Items Registered");

@@ -208,6 +208,7 @@ public class ItemList {
 	public static Item oresugilite;
 	public static Item oretopaz;
 	public static Item oretourmaline;
+	
 	public static Item sandagate;
 	public static Item sandamethyst;
 	public static Item sandcitrine;
@@ -224,6 +225,7 @@ public class ItemList {
 	public static Item sandsugilite;
 	public static Item sandtopaz;
 	public static Item sandtourmaline;
+	
 	public static Item glassagate;
 	public static Item glassamethyst;
 	public static Item glasscitrine;
@@ -240,6 +242,7 @@ public class ItemList {
 	public static Item glasssugilite;
 	public static Item glasstopaz;
 	public static Item glasstourmaline;
+	
 	public static Item blockagate;
 	public static Item blockamethyst;
 	public static Item blockcitrine;
@@ -256,6 +259,7 @@ public class ItemList {
 	public static Item blocksugilite;
 	public static Item blocktopaz;
 	public static Item blocktourmaline;
+	
 	public static Item netheroreagate;
 	public static Item netheroreamethyst;
 	public static Item netherorecitrine;
@@ -272,6 +276,7 @@ public class ItemList {
 	public static Item netheroresugilite;
 	public static Item netheroretopaz;
 	public static Item netheroretourmaline;
+	
     public static Item agateglasspane;
 	public static Item amethystglasspane;
 	public static Item citrineglasspane;
