@@ -1,0 +1,12 @@
+[{
+  "modid": "gemsplusplus",
+  "name": "Gems++",
+  "description": "Adds lots of gems which you can make tools and armor out of.",
+  "version": "6.1.0.1",
+  "mcversion": "1.12.2",
+  "logoFile": "gemspluslogo.png",
+  "url": "",
+  "updateJSON": "",
+  "authorList": ["Trhod177"],
+  "credits": "Mod Oringinally by RobZ51 and textures by the other authors."
+}]

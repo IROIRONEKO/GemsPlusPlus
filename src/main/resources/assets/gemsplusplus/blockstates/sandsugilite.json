@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"normal": [
+			{"model": "gemsplusplus:sandSugilite" },
+			{"model": "gemsplusplus:sandSugilite", "y": 90 },
+			{"model": "gemsplusplus:sandSugilite", "y": 180 },
+			{"model": "gemsplusplus:sandSugilite", "y": 270 }
+		]
+	}
+}

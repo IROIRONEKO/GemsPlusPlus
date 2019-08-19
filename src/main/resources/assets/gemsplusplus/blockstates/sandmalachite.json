@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"normal": [
+			{"model": "gemsplusplus:sandMalachite" },
+			{"model": "gemsplusplus:sandMalachite", "y": 90 },
+			{"model": "gemsplusplus:sandMalachite", "y": 180 },
+			{"model": "gemsplusplus:sandMalachite", "y": 270 }
+		]
+	}
+}

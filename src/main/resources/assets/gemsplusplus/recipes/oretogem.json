@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "gemsplusplus:oreagate"
+        },
+        {
+            "item": "gemsplusplus:oreagate"
+        },
+        {
+            "item": "gemsplusplus:oreagate"
+        },
+        {
+            "item": "gemsplusplus:oreagate"
+        },
+        {
+            "item": "gemsplusplus:oreagate"
+        },
+        {
+            "item": "gemsplusplus:oreagate"
+        },
+        {
+            "item": "gemsplusplus:oreagate"
+        },
+        {
+            "item": "gemsplusplus:oreagate"
+        },
+        {
+            "item": "gemsplusplus:oreagate"
+        }
+    ],
+    "result": {
+        "item": "gemsplusplus:agate",
+        "count": 9
+    }
+}

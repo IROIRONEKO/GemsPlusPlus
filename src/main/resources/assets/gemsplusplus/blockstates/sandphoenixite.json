@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"normal": [
+			{"model": "gemsplusplus:sandPhoenixite" },
+			{"model": "gemsplusplus:sandPhoenixite", "y": 90 },
+			{"model": "gemsplusplus:sandPhoenixite", "y": 180 },
+			{"model": "gemsplusplus:sandPhoenixite", "y": 270 }
+		]
+	}
+}
