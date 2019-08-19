@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: gemsplusplus1.14.4
+Implementation-Version: 1.14.4-0.1.2
+Specification-Vendor: com.github.trhod177
+Specification-Title: gemsplusplus
+Implementation-Timestamp: 2019-08-05T10:36:30+1000
+Specification-Version: 1
+Implementation-Vendor: com.github.trhod177
+

@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+"group": "gemdust",
+  "ingredients": [
+    {
+      "item": "gemsplusplus:ruby"
+    }
+  ],
+  "result": {
+    "item": "gemsplusplus:dustruby",
+    "count": 4
+  }
+}

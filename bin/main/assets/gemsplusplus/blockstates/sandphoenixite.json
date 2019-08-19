@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"": [
+			{"model": "gemsplusplus:block/sandphoenixite" },
+			{"model": "gemsplusplus:block/sandphoenixite", "y": 90 },
+			{"model": "gemsplusplus:block/sandphoenixite", "y": 180 },
+			{"model": "gemsplusplus:block/sandphoenixite", "y": 270 }
+		]
+	}
+}

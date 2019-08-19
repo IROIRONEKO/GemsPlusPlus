@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+"group": "gemdust",
+  "ingredients": [
+    {
+      "item": "gemsplusplus:jasper"
+    }
+  ],
+  "result": {
+    "item": "gemsplusplus:dustjasper",
+    "count": 4
+  }
+}

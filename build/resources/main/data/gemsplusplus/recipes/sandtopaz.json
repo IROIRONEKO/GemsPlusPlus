@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shapeless",
+"group": "gemdust",
+  "ingredients": [
+    {
+      "item": "gemsplusplus:dusttopaz"
+    },
+   {
+      "item": "minecraft:sand"
+    },
+	  {
+      "item": "minecraft:sand"
+    }
+
+  ],
+  "result": {
+    "item": "gemsplusplus:sandtopaz",
+    "count": 4
+  }
+}

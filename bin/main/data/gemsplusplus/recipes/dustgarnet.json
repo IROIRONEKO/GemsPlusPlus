@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+"group": "gemdust",
+  "ingredients": [
+    {
+      "item": "gemsplusplus:garnet"
+    }
+  ],
+  "result": {
+    "item": "gemsplusplus:dustgarnet",
+    "count": 4
+  }
+}

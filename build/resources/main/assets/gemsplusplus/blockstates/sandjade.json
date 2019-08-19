@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"": [
+			{"model": "gemsplusplus:block/sandjade" },
+			{"model": "gemsplusplus:block/sandjade", "y": 90 },
+			{"model": "gemsplusplus:block/sandjade", "y": 180 },
+			{"model": "gemsplusplus:block/sandjade", "y": 270 }
+		]
+	}
+}

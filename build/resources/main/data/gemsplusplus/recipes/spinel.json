@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "gemsplusplus:blockspinel"
+        }
+    ],
+    "result": {
+        "item": "gemsplusplus:spinel",
+        "count": 9
+    }
+}

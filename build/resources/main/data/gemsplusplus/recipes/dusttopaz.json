@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+"group": "gemdust",
+  "ingredients": [
+    {
+      "item": "gemsplusplus:topaz"
+    }
+  ],
+  "result": {
+    "item": "gemsplusplus:dusttopaz",
+    "count": 4
+  }
+}

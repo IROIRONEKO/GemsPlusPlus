@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"": [
+			{"model": "gemsplusplus:block/sandsugilite" },
+			{"model": "gemsplusplus:block/sandsugilite", "y": 90 },
+			{"model": "gemsplusplus:block/sandsugilite", "y": 180 },
+			{"model": "gemsplusplus:block/sandsugilite", "y": 270 }
+		]
+	}
+}

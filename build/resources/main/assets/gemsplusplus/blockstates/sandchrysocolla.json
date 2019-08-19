@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"": [
+			{"model": "gemsplusplus:block/sandchrysocolla" },
+			{"model": "gemsplusplus:block/sandchrysocolla", "y": 90 },
+			{"model": "gemsplusplus:block/sandchrysocolla", "y": 180 },
+			{"model": "gemsplusplus:block/sandchrysocolla", "y": 270 }
+		]
+	}
+}

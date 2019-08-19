@@ -1,0 +1,9 @@
+{
+  "type": "smelting",
+  "ingredient": {
+    "item": "gemsplusplus:sandjade"
+  },
+  "result": "gemsplusplus:glassjade",
+  "experience": 0.1,
+  "cookingtime": 200
+}

@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"": [
+			{"model": "gemsplusplus:block/sandagate" },
+			{"model": "gemsplusplus:block/sandagate", "y": 90 },
+			{"model": "gemsplusplus:block/sandagate", "y": 180 },
+			{"model": "gemsplusplus:block/sandagate", "y": 270 }
+		]
+	}
+}

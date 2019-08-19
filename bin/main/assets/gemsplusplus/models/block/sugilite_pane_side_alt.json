@@ -1,0 +1,6 @@
+{
+    "parent": "block/template_glass_pane_side_alt",
+    "textures": {
+        "edge": "gemsplusplus:blocks/sugilite_pane_top",
+        "pane": "gemsplusplus:blocks/glasssugilite"
+}

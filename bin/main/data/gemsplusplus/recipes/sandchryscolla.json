@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shapeless",
+  "group": "gemdust",
+  "ingredients": [
+    {
+      "item": "gemsplusplus:dustchrysocolla"
+    },
+{
+      "item": "minecraft:sand"
+    },
+	  {
+      "item": "minecraft:sand"
+    }
+  ],
+  "result": {
+    "item": "gemsplusplus:sandchrysocolla",
+    "count": 4
+  }
+}

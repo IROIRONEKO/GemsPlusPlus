@@ -1,0 +1,9 @@
+{
+  "type": "smelting",
+  "ingredient": {
+    "item": "gemsplusplus:sandtourmaline"
+  },
+  "result": "gemsplusplus:glasstourmaline",
+  "experience": 0.1,
+  "cookingtime": 200
+}

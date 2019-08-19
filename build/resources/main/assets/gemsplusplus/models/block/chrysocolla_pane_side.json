@@ -1,0 +1,7 @@
+{
+    "parent": "block/template_glass_pane_side",
+    "textures": {
+        "edge": "gemsplusplus:blocks/chrysocolla_pane_top",
+        "pane": "gemsplusplus:blocks/glasschrysocolla"
+    }
+}

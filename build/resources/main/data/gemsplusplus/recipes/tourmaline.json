@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "gemsplusplus:blocktourmaline"
+        }
+    ],
+    "result": {
+        "item": "gemsplusplus:tourmaline",
+        "count": 9
+    }
+}

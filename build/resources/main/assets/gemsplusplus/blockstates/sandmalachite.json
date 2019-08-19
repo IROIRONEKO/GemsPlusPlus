@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"": [
+			{"model": "gemsplusplus:block/sandmalachite" },
+			{"model": "gemsplusplus:block/sandmalachite", "y": 90 },
+			{"model": "gemsplusplus:block/sandmalachite", "y": 180 },
+			{"model": "gemsplusplus:block/sandmalachite", "y": 270 }
+		]
+	}
+}

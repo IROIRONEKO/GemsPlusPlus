@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "gemsplusplus:glassjasper"
+        }
+    },
+    "result": {
+        "item": "gemsplusplus:jasperglasspane",
+        "count": 16
+    }
+}

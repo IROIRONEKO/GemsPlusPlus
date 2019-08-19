@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"": [
+			{"model": "gemsplusplus:block/sandtopaz" },
+			{"model": "gemsplusplus:block/sandtopaz", "y": 90 },
+			{"model": "gemsplusplus:block/sandtopaz", "y": 180 },
+			{"model": "gemsplusplus:block/sandtopaz", "y": 270 }
+		]
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+"group": "gemdust",
+  "ingredients": [
+    {
+      "item": "gemsplusplus:sapphire"
+    }
+  ],
+  "result": {
+    "item": "gemsplusplus:dustsapphire",
+    "count": 4
+  }
+}

@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"": [
+			{"model": "gemsplusplus:block/sandruby" },
+			{"model": "gemsplusplus:block/sandruby", "y": 90 },
+			{"model": "gemsplusplus:block/sandruby", "y": 180 },
+			{"model": "gemsplusplus:block/sandruby", "y": 270 }
+		]
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shapeless",
+  "group": "gemdust",
+  "ingredients": [
+    {
+      "item": "gemsplusplus:dustamethyst"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+	  {
+      "item": "minecraft:sand"
+    }
+  ],
+  "result": {
+    "item": "gemsplusplus:sandamethyst",
+    "count": 4
+  }
+}

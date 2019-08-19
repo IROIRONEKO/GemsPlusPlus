@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"": [
+			{"model": "gemsplusplus:block/sandonyx" },
+			{"model": "gemsplusplus:block/sandonyx", "y": 90 },
+			{"model": "gemsplusplus:block/sandonyx", "y": 180 },
+			{"model": "gemsplusplus:block/sandonyx", "y": 270 }
+		]
+	}
+}

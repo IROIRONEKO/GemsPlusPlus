@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"": [
+			{"model": "gemsplusplus:block/sandamethyst" },
+			{"model": "gemsplusplus:block/sandamethyst", "y": 90 },
+			{"model": "gemsplusplus:block/sandamethyst", "y": 180 },
+			{"model": "gemsplusplus:block/sandamethyst", "y": 270 }
+		]
+	}
+}
