@@ -234,7 +234,7 @@ public class WorldGenCustomOres implements IWorldGenerator {
 				runGenerator(orejade, world, random, chunkX, chunkZ, MainConfigHandler.orejadespawnchance, 0, 44);
 			}
 			if (MainConfigHandler.orecitrine == true) {
-				runGenerator(orecitrine, world, random, chunkX, chunkZ, MainConfigHandler.orejasperspawnchance, 0, 36);
+				runGenerator(orecitrine, world, random, chunkX, chunkZ, MainConfigHandler.orecitrinespawnchance, 0, 36);
 			}
 			if (MainConfigHandler.oregarnet == true) {
 				runGenerator(oregarnet, world, random, chunkX, chunkZ, MainConfigHandler.oregarnetspawnchance, 0, 7);

@@ -11,10 +11,14 @@ import net.minecraft.init.Items;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.util.BlockRenderLayer;
+import net.minecraft.util.EnumBlockRenderType;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -116,6 +120,27 @@ public class BlockGemOre extends Block implements IHasModel {
 	public int quantityDropped(Random random) {
 		return random.nextInt(3) + 1;
 	}
+	
+	@Override
+	public int getExpDrop(IBlockState state, IBlockAccess world, BlockPos pos, int fortune) {
+		 Random rand = world instanceof World ? ((World)world).rand : new Random();
+	       
+		 if (this.getItemDropped(state, rand, fortune) != Item.getItemFromBlock(this))
+	        {
+	            int i = 0;
+
+	            if (this == BlockInit.orephoenixite || this == BlockInit.netherorephoenixite)
+	            {
+	            	i = MathHelper.getInt(rand, 3, 16);
+	            }
+	            else {
+	            	i = MathHelper.getInt(rand, 1, 5);
+	            }
+
+	            return i;
+	        }
+	        return 0;
+	}
 
 	public int quantityDroppedWithBonus(int fortune, Random random) {
 		if (fortune > 0 && Item.getItemFromBlock(this) != this.getItemDropped(
@@ -151,6 +176,12 @@ public class BlockGemOre extends Block implements IHasModel {
                    
     	}
      
+    }
+    
+    @SideOnly(Side.CLIENT)
+    public BlockRenderLayer getBlockLayer()
+    {
+        return BlockRenderLayer.CUTOUT;
     }
 
 	@Override
